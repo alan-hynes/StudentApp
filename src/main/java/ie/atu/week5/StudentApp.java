@@ -13,44 +13,44 @@ public class StudentApp {
         student1.setName(name);
         System.out.println("You Entered : " + student1.getName());
 
-        System.out.println("Please enter the student email : ");
+        System.out.println("\nPlease enter the student email : ");
         String email = input.next();
         student1.setEmail(email);
         System.out.println("You Entered : " + student1.getEmail());
 
-        System.out.println("Please enter the student course : ");
+        System.out.println("\nPlease enter the student course : ");
         String course = input.next();
         student1.setCourse(course);
         System.out.println("You Entered : " + student1.getCourse());
 
 
         //Second instance of StudentDetails
-        System.out.println("Please enter the student name : ");
+        System.out.println("\n\nPlease enter the second student name : ");
         name = input.next();
         StudentDetails student2 = new StudentDetails(name);
         System.out.println("You Entered : " + student2.getName());
 
-        System.out.println("Please enter the student email : ");
+        System.out.println("\nPlease enter the second student email : ");
         email = input.next();
         student2.setEmail(email);
         System.out.println("You Entered : " + student2.getEmail());
 
-        System.out.println("Please enter the student course : ");
+        System.out.println("\nPlease enter the second student course : ");
         course = input.next();
         student2.setCourse(course);
         System.out.println("You Entered : " + student2.getCourse());
 
 
         //Third instance of StudentDetails
-        System.out.println("Please enter the student name : ");
+        System.out.println("\n\nPlease enter the third student name : ");
         name = input.next();
         System.out.println("You Entered : " + name);
 
-        System.out.println("Please enter the student email : ");
+        System.out.println("\nPlease enter the third student email : ");
         email = input.next();
         System.out.println("You Entered : " + email);
 
-        System.out.println("Please enter the student course : ");
+        System.out.println("\nPlease enter the third student course : ");
         course = input.next();
         System.out.println("You Entered : " + course);
         StudentDetails student3 = new StudentDetails(name, email, course);
